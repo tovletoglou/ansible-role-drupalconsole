@@ -10,8 +10,7 @@ Tested CentOS 7
 
 Available variables are listed below, along with default values `defaults/main.yml`
 
-
-Drupal Console .phar location. The default location `/usr/local/bin/drupal` is accesible on PATH.
+Drupal Console .phar location. The default location `/usr/local/bin/drupal` is accessible on PATH.
 
     drupal_console_path: /usr/local/bin/drupal
 
@@ -22,8 +21,7 @@ Update Drupal Console.
 Initialize Drupal console for the users on the list.
 
     drupal_console_config:
-      - name: "vagrant"
-        path: "/home/vagrant/.console"
+      - vagrant
 
 ## Dependencies
 
@@ -35,4 +33,4 @@ MIT
 
 ## Author Information
 
-Apostolos Tovletoglou [ansible-role-git](https://github.com/tovletoglou/ansible-role-drupalconsole)
+Apostolos Tovletoglou [ansible-role-drupalconsole](https://github.com/tovletoglou/ansible-role-drupalconsole)

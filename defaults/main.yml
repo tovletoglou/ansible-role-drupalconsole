@@ -1,7 +1,7 @@
 ---
 
 # Drupal Console .phar location. The default location `/usr/local/bin/drupal` is
-# accesible on PATH.
+# accessible on PATH.
 drupal_console_path: /usr/local/bin/drupal
 
 # Update Drupal Console.
