@@ -7,7 +7,6 @@ drupal_console_path: /usr/local/bin/drupal
 # Update Drupal Console.
 drupal_console_keep_updated: false
 
-# Initialize Drupal console for the users on the list.
+# Initialize Drupal console under the `~/.console` for the users on the list .
 drupal_console_config:
-  - name: "vagrant"
-    path: "/home/vagrant/.console"
+  - vagrant

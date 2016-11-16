@@ -19,7 +19,7 @@
 - name: Run Drupal Console init
   shell: php {{ drupal_console_path }} init
   become: true
-  become_user: "{{ item.name }}"
+  become_user: "{{ item }}"
   args:
-   creates: "{{ item.path }}"
+   creates: "~/.console"
   with_items: "{{ drupal_console_config }}"
