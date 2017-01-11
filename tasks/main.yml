@@ -22,4 +22,5 @@
   become_user: "{{ item }}"
   args:
    creates: "~/.console"
-  with_items: "{{ drupal_console_config }}"
+  with_items: "{{ drupal_console_config_users }}"
+  when: drupal_console_config
